@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
+<body style="background-color:#CADABF;">
 <h2 style="text-align:center;margin-left:100px;">Data penjualan <button style="float:right;" onclick="window.location.href='/'"><i class="fas fa-arrow-left"></i> Back to home</button></h2>
 <div>
     <label for="startDate">Tentukan hari awal:</label>
@@ -57,7 +57,7 @@
                     data: amounts1,
                     backgroundColor: 'rgba(85, 210, 25, 0.4)',
                     borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 1
+                    borderWidth: 2
                 }]
             },
             options: {
@@ -78,7 +78,7 @@
                     data: amounts2,
                     backgroundColor: 'rgba(255, 159, 64, 0.4)',
                     borderColor: 'rgba(255, 159, 64, 1)',
-                    borderWidth: 1
+                    borderWidth: 2
                 }]
             },
             options: {
@@ -99,7 +99,7 @@
                     data: amounts3,
                     backgroundColor: 'rgba(54, 162, 235, 0.4)',
                     borderColor: 'rgba(54, 162, 235, 1)',
-                    borderWidth: 1
+                    borderWidth: 2
                 }]
             },
             options: {
