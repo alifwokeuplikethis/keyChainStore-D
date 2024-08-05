@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body style="background-color:#CADABF;">
+<body>
 <h2 style="text-align:center;margin-left:100px;">Data penjualan <button style="float:right;" onclick="window.location.href='/'"><i class="fas fa-arrow-left"></i> Back to home</button></h2>
 <div>
     <label for="startDate">Tentukan hari awal:</label>
