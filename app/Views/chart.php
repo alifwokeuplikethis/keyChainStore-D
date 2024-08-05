@@ -10,9 +10,9 @@
 <body>
 <h2 style="text-align:center;margin-left:100px;">Data penjualan <button style="float:right;" onclick="window.location.href='/'"><i class="fas fa-arrow-left"></i> Back to home</button></h2>
 <div>
-    <label for="startDate">Hari awal:</label>
+    <label for="startDate">Tentukan hari awal:</label>
     <input type="date" id="startDate" name="startDate" onchange="updateDates()" required>
-    <label for="endDate">Hari akhir:</label>
+    <label for="endDate">Tentukan hari akhir:</label>
     <input type="date" id="endDate" name="endDate" onchange="updateDates()" required></div> 
     <div style="width: 50%;float:left;">
         <canvas id="salesChart1"></canvas><p>
